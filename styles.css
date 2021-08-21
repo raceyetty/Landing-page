@@ -17,14 +17,17 @@ h2#logo{
     text-indent:20px;
     text-align:center;
     margin:0 auto;
+    font-style: italic;
     
 }
 
 #container{
-    background:aqua;
+    background:rgb(155, 68, 182);
     text-align:center;
     font-family: Arial,sans-serif;
-    text
+    
+    
+    
 }
 
 input[type="text"]{
@@ -37,30 +40,53 @@ input[type="text"]{
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0 5px;
+    border-radius: 5px;
 
 }
 
 input[type="submit"]{
         width:100px;
         padding:5px;
+        border-radius: 5px;
+        color: black;
+    
+    
 }
 
 input[type="submit"]:hover{
     cursor:pointer;
+    color: red;
 
 }
 
 #main{
-    width:300px;
+    width:200px;
     float:left;
+    margin:0 0  0 100px;
+    
+    
+
 }
 #left{
-    width:300px;
+    width:200px;
     float:right;
+    margin:0 0 200px 100px;
 }
 #middle{
-    width:300px;
-    float:right;s
+    width:200px;
+    float:right;
+    
 }
+
+.icon {
+    color: rgb(155, 68, 182);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+p{
+    text-align: justify;
+}
+
 
 
