@@ -8,7 +8,7 @@ body{
     font-size: 13px;
 }
 
-h2#logo{
+h5#logo{
     width: 22px;
     height: 22px;
     background:url('logo.png');
@@ -62,24 +62,7 @@ input[type="submit"]:hover{
 
 }
 
-#main{
-    width:200px;
-    float:left;
-    margin:0 0  0 100px;
-    
-    
 
-}
-#left{
-    width:200px;
-    float:right;
-    margin:0 0 200px 100px;
-}
-#middle{
-    width:200px;
-    float:right;
-    
-}
 
 .icon {
     color: rgb(155, 68, 182);
@@ -89,23 +72,29 @@ input[type="submit"]:hover{
 
 p{
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
-h2,h3,h4{
+h5,h3,h6{
     color: white;
+    
 }
 
 #para1{
     color: black;
+    
+    
 }
 
 #para2{
     color: black;
+    
 }
 
 #para3{
     color: black;
+    
 }
 
 
